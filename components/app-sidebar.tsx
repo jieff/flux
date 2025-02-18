@@ -9,9 +9,12 @@ import {
   LifeBuoy,
   Map,
   PieChart,
+  SaveAll,
   Send,
   Settings2,
-  SquareTerminal,
+  ShoppingCart,
+  User,
+
 } from "lucide-react";
 
 import { NavMain } from "@/components/nav-main";
@@ -36,86 +39,104 @@ const data = {
   },
   navMain: [
     {
-      title: "Playground",
+      title: "Cadastros",
       url: "#",
-      icon: SquareTerminal,
-      isActive: true,
+      icon: SaveAll,
       items: [
         {
-          title: "History",
+          title: "Produtos",
           url: "#",
         },
         {
-          title: "Starred",
+          title: "Clientes",
           url: "#",
         },
         {
-          title: "Settings",
+          title: "Leads",
+          url: "#",
+        },
+        {
+          title: "Usuários",
           url: "#",
         },
       ],
     },
     {
-      title: "Models",
+      title: "CRM",
       url: "#",
-      icon: Bot,
+      icon: User,
       items: [
         {
-          title: "Genesis",
+          title: "Novo Lead",
           url: "#",
         },
         {
-          title: "Explorer",
+          title: "Lista de Leads",
+          url: "#",
+        }
+      ],
+    },
+    {
+      title: "PDV",
+      url: "#",
+      icon: ShoppingCart,
+      items: [
+        {
+          title: "Nova Venda",
           url: "#",
         },
         {
-          title: "Quantum",
+          title: "Histórico de Venda",
+          url: "#",
+        },
+        {
+          title: "Cancelamento de Venda",
+          url: "#",
+        },
+        {
+          title: "Devoluções e Trocas",
           url: "#",
         },
       ],
     },
     {
-      title: "Documentation",
+      title: "Documentação",
       url: "#",
       icon: BookOpen,
       items: [
         {
-          title: "Introduction",
+          title: "Introdução",
           url: "#",
         },
         {
-          title: "Get Started",
+          title: "Começar",
           url: "#",
         },
         {
-          title: "Tutorials",
-          url: "#",
-        },
-        {
-          title: "Changelog",
+          title: "Tutoriais",
           url: "#",
         },
       ],
     },
     {
-      title: "Settings",
+      title: "Configurações",
       url: "#",
       icon: Settings2,
       items: [
         {
-          title: "General",
+          title: "Geral",
           url: "#",
         },
         {
-          title: "Team",
+          title: "Equipe",
           url: "#",
         },
         {
-          title: "Billing",
+          title: "Faturamento",
           url: "#",
         },
         {
-          title: "Limits",
+          title: "Limites",
           url: "#",
         },
       ],
